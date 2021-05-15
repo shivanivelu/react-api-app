@@ -65,7 +65,7 @@ function App() {
                        <td style={{width:"250px"}}>{country.region}</td>
                        <td style={{width:"250px"}}>{country.subregion}</td>
                        <td style={{width:"250px"}}>{country.capital}</td>
-                       <td style={{width:"250px"}}><img src = {country.flag} style={{height:"50px"}}></img></td>
+                       <td style={{width:"250px"}}><img src = {country.flag} style={{height:"50px"}} alt="nothing"></img></td>
                        </>
                     ))}
                 </tbody>
